@@ -34,7 +34,7 @@ jobs:
           personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}	# 发布到其他 repo 需要在对应的 repo 上粘贴生成的 personal_access_token
           #1. 创建 Personal_Access_Token：
           #   GitHub 个人账号 -> Settings -> Developer settings -> Personal access tokens ->  Tokens (classic) -> New personal access token (classic)
-          #   - Expiration: No expiration
+          #   - Expiration: No expiration1
           #   - Select scopes: 全选
           #2. 粘贴 Personal_Access_Token：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
           #   进入目标 repo -> Settings -> Security -> Secrets and variables -> Actions，选择 New repository secret -> 粘贴前面生成的 personal_access_token
